@@ -42,14 +42,14 @@ def main():
 
         with col3:
             st.subheader("Podcast Guest")
-            if podcast_info['podcast_gues'] == "":
+            if podcast_info['podcast_guest'] == "":
                 st.write("No Guest Information Available")
             else:
                 st.write(podcast_info['podcast_guest']['name'])
 
         with col4:
             st.subheader("Podcast Guest Details")
-            if podcast_info['podcast_gues'] == "":
+            if podcast_info['podcast_guest'] == "":
                 st.write("No Guest Information Available")
             else:
                 st.write(podcast_info["podcast_guest"]['summary'])
